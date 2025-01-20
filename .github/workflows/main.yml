@@ -71,4 +71,5 @@ jobs:
 
             # Restart the app using PM2
             pm2 restart Test-Action
+            pm2 save
           EOF
